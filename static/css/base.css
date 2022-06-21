@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+
+button {
+  outline: none !important;
+}
+
+@media screen and (max-width: 540px) {
+  .article_content .data img {
+    display: block;
+    margin: auto;
+    width: 75vw !important;
+    height: auto !important;
+  }
+
+  .article_content .data h3,
+  .article_content .data div {
+    padding: 0 !important;
+    display: block !important;
+    padding-left: 0 !important;
+    text-indent: 0 !important;
+  }
+}
+
+.article_content .data p,
+.article_content .data div {
+  text-align: left;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* background-image: url(./images/bg.jpg);
+  background-size: cover;
+  opacity:0.5; */
+  /*  主题颜色 */
+
+  /* background: transparent; */
+  border: none;
+  padding: 0;
+  margin: 0;
+  width: 95vw;
+  height: 100vh;
+}
+
+a {
+  text-decoration: none;
+}
+
+.van-nav-bar {
+  background-color: transparent;
+}
+
+.nav-bar-background-color {
+  background-color: transparent;
+}
